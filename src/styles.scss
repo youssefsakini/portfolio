@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@use "./assets/style/helpers" as *;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background-color: color(dark-body);
+}

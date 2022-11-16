@@ -1,0 +1,59 @@
+@use '../../../assets/style/helpers' as *;
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px 0px 100px;
+    // background: red;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    // background: blue;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: color(dark-muted);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    @include global-transition;
+    &:hover{
+        color: color(light);
+    }
+}
+
+nav .menu-btn i{
+    color: color(dark-muted);
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+
+.hover_line {
+    &::after {
+        content: "";
+        display: flex;
+        width: 0%;
+        height: 0.2rem;
+        border-radius: $main-border-radius;
+        background-color: color(main-color);
+        @include global-transition;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}

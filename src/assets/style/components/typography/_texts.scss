@@ -1,0 +1,10 @@
+@use "../../helpers" as *;
+
+//txt second
+.main-text {
+  color: color(light) !important;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: justify;
+}

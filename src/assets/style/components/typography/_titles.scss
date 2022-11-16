@@ -1,0 +1,21 @@
+@use '../../helpers' as *;
+
+// Main Title
+.main-title {
+    color: color(light);
+    &::before {
+        content: "";
+        border-left: 5px solid color(info);
+        margin-right: 7px;
+    }
+}
+
+// Table header title
+.header-title {
+    color: color(dark);
+    &::before {
+        content: "";
+        border-left: 3px solid color(main-color);
+        margin-right: 7px;
+    }
+}

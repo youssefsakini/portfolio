@@ -1,1 +1,7 @@
-<p>header works!</p>
+<nav>
+    <ul>
+        <li *ngFor="let router of routers">
+           <a class="hover_line" [href]="router.id" routerLinkActive="router-link-active"> {{router.name}} </a>
+        </li>
+    </ul>
+</nav>
