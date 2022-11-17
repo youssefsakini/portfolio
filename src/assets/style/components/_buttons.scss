@@ -2,129 +2,133 @@
 
 //  Main button
 .main-btn {
-    background: color(main-color) !important;
-    color: color(light) !important;
-    border-radius: $main-border-radius !important;
-    border: 0.1em solid color(light);
-    box-shadow: none !important;
+    background: color(main-color);
+    color: color(light);
+    border-radius: $main-border-radius;
+    // border: 0.1em solid color(light);
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
 
     &:hover {
-        background: color(main-color) !important;
-        color: color(light) !important;
-    }
-}
-
-// Second button
-.second-btn {
-    background: color(main-color) !important;
-    box-shadow: $btn-box-shadow;
-    color: color(light) !important;
-    border-radius: $main-border-radius !important;
-    border: 0.1em solid color(main-color) !important;
-
-    &:hover {
-        background: color(light) !important;
-        color: color(dark) !important;
-        border: 0.1em solid color(main-color) !important;
-    }
-}
-
-// Costumize the danger button
-.danger-btn {
-    background: color(danger);
-    box-shadow: $btn-box-shadow;
-    color: color(light) !important;
-    border-radius: $main-border-radius !important;
-    border: 0.1em solid color(danger);
-
-    &:hover {
-        background: color(dark);
-        color: color(light) !important;
-        border: 0.1em solid color(dark);
-    }
-}
-
-// Costumize the success button
-.success-btn {
-    background: color(success);
-    box-shadow: $btn-box-shadow;
-    color: color(light) !important;
-    border-radius: $main-border-radius !important;
-    border: 0.1em solid color(success);
-
-    &:hover {
-        background: color(dark) !important;
-        color: color(light) !important;
-        border: 0.1em solid color(dark);
-    }
-}
-
-// Costumize the info button
-.info-btn {
-    background: color(info);
-    box-shadow: $btn-box-shadow;
-    color: color(light) !important;
-    border-radius: $main-border-radius !important;
-
-    &:hover {
-        background: color(dark);
-        color: color(light) !important;
-    }
-}
-
-// Dark button
-.dark-btn {
-    background: color(dark-body);
-    box-shadow: $btn-box-shadow;
-    color: color(light) !important;
-    border-radius: $main-border-radius !important;
-
-    &:hover {
-        background: color(dark);
-        color: color(light) !important;
-    }
-}
-
-// Sub menu buttons
-.sub-menu-btn {
-    color: color(dark);
-
-    &::before {
-        content: "❯";
-        margin-right: 5px;
+        background: color(light);
         color: color(main-color);
     }
 }
 
-.short-link {
-    text-decoration: none;
-    font-size: small;
+// Second button
+// .second-btn {
+//     background: color(main-color) !important;
+//     box-shadow: $btn-box-shadow;
+//     color: color(light) !important;
+//     border-radius: $main-border-radius !important;
+//     border: 0.1em solid color(main-color) !important;
 
-    &:hover {
-        color: color(dark) !important;
-    }
-}
+//     &:hover {
+//         background: color(light) !important;
+//         color: color(dark) !important;
+//         border: 0.1em solid color(main-color) !important;
+//     }
+// }
 
-// Checkbox style
-.check:checked ~ .checkbox-list-btns {
-    background-color: color(main-color);
-    color: white;
-    box-shadow: none;
-    outline: none;
-}
+// Costumize the danger button
+// .danger-btn {
+//     background: color(danger);
+//     box-shadow: $btn-box-shadow;
+//     color: color(light) !important;
+//     border-radius: $main-border-radius !important;
+//     border: 0.1em solid color(danger);
 
-.checkbox-list-btns {
-    background-color: white;
-    color: color(main-color);
-    border: solid 1px color(main-color);
-    box-shadow: none;
-    outline: none;
-    cursor: pointer !important;
+//     &:hover {
+//         background: color(dark);
+//         color: color(light) !important;
+//         border: 0.1em solid color(dark);
+//     }
+// }
 
-    &:focus {
-        border: none !important ;
-        box-shadow: none !important;
-    }
-}
+// // Costumize the success button
+// .success-btn {
+//     background: color(success);
+//     box-shadow: $btn-box-shadow;
+//     color: color(light) !important;
+//     border-radius: $main-border-radius !important;
+//     border: 0.1em solid color(success);
+
+//     &:hover {
+//         background: color(dark) !important;
+//         color: color(light) !important;
+//         border: 0.1em solid color(dark);
+//     }
+// }
+
+// // Costumize the info button
+// .info-btn {
+//     background: color(info);
+//     box-shadow: $btn-box-shadow;
+//     color: color(light) !important;
+//     border-radius: $main-border-radius !important;
+
+//     &:hover {
+//         background: color(dark);
+//         color: color(light) !important;
+//     }
+// }
+
+// // Dark button
+// .dark-btn {
+//     background: color(dark-body);
+//     box-shadow: $btn-box-shadow;
+//     color: color(light) !important;
+//     border-radius: $main-border-radius !important;
+
+//     &:hover {
+//         background: color(dark);
+//         color: color(light) !important;
+//     }
+// }
+
+// // Sub menu buttons
+// .sub-menu-btn {
+//     color: color(dark);
+
+//     &::before {
+//         content: "❯";
+//         margin-right: 5px;
+//         color: color(main-color);
+//     }
+// }
+
+// .short-link {
+//     text-decoration: none;
+//     font-size: small;
+
+//     &:hover {
+//         color: color(dark) !important;
+//     }
+// }
+
+// // Checkbox style
+// .check:checked ~ .checkbox-list-btns {
+//     background-color: color(main-color);
+//     color: white;
+//     box-shadow: none;
+//     outline: none;
+// }
+
+// .checkbox-list-btns {
+//     background-color: white;
+//     color: color(main-color);
+//     border: solid 1px color(main-color);
+//     box-shadow: none;
+//     outline: none;
+//     cursor: pointer !important;
+
+//     &:focus {
+//         border: none !important ;
+//         box-shadow: none !important;
+//     }
+// }
 
 

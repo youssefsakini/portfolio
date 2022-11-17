@@ -11,3 +11,6 @@
     @return map-get($colors, $color-name);
 }
 
+@function size($size-name) {
+    @return map-get($font-sizes, $size-name);
+}

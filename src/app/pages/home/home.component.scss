@@ -1,0 +1,34 @@
+@use './../../../assets/style/helpers/' as *;
+@use './../../../assets/style/components/buttons';
+section{
+    padding: 160px 16% 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: color(light);    
+}
+
+.home-text{
+    h1{
+        margin: 20px 0;
+        font-size: size(large);
+        font-weight: weight(bold);
+        line-height: 1.1;
+        letter-spacing: 2px;
+    }
+    h4{
+        color: color(main-color);
+        font-size: size(medium);
+        font-weight: weight(bold);
+    }
+    h3{
+        margin-bottom: 2.5rem;
+        font-size: size(medium);
+        font-weight: weight(bold);
+    }
+}
