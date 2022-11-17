@@ -1,0 +1,25 @@
+@use './../../../assets/style/helpers/' as *;
+@use './../../../assets/style/components/buttons';
+section{
+    padding: 160px 16% 90px;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-text{
+    h4{
+        margin: 10px 0;
+        color: color(main-color);
+        font-size: size(medium);
+        font-weight: weight(bold);
+    }
+    h2{
+        font-size: size(large);
+    }
+}
