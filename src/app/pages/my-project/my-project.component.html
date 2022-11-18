@@ -1,1 +1,8 @@
-<p>my-project works!</p>
+<section class="my-project">
+  <div class="main-card" *ngFor="let project of projects">
+    <h1 class="card_title">{{project.name}}</h1>
+    <p class="card_content">
+      {{project.technologie}}
+    </p>
+  </div>
+</section>

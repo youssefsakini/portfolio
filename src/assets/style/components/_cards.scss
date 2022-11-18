@@ -5,38 +5,20 @@
     position: relative;
     align-items: center;
     overflow: hidden;
-    width: 25rem;
-    height: 23rem;
+    width: 30rem;
+    height: 10rem;
+    text-align: justify;
     border-radius: $main-border-radius !important;
     box-shadow: $card-box-shadow;
-    &:hover {
-        & .card_image {
-          transform: scale(1.2);
-        }
-        & .card_content {
-          top: 50%;
-        }
-        & .card_title {
-          display: none;
-        }
-      }
+    // background: color(main-color);
+    margin-bottom: 15px;
 }
 
-.home-card{
-    position: relative;
-    align-items: center;
-    overflow: hidden;
-    width: 25rem;
-    height: 23rem;
-    border-radius: $main-border-radius !important;
-    text-align: justify;
-    color: color(light);
-    min-height: 60vh;
-}
   .card_title {
-    position: absolute;
-    color: color(light);
-    bottom: 12px;
+    // position: absolute;
+    // top: 12px;
+    // color: color(light);
+    // bottom: 12px;
     width: 100%;
     text-align: center;
   }
@@ -50,13 +32,13 @@
   }
   
   .card_content {
-    position: absolute;
+    // position: absolute;
     top: 100%;
     width: 100%;
     height: 20rem;
     opacity: 0.8;
     transition: all 1s;
-    background: color(dark-body);
+    // background: color(dark-body);
     & h3 {
       padding: 1rem;
       margin-bottom: 0;

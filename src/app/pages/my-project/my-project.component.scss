@@ -1,0 +1,9 @@
+@use './../../../assets/style/helpers/' as *;
+@use './../../../assets/style/components/' as *;
+@use './../../../assets/style/components/buttons';
+
+.my-project{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
