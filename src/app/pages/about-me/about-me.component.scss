@@ -1,25 +1,71 @@
 @use './../../../assets/style/helpers/' as *;
 @use './../../../assets/style/components/buttons';
-section{
-    padding: 160px 16% 90px;
-    display: flex;
-    justify-content: center;
-}
+
+
 .about{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 2rem;
+    padding: 120px 16% 90px;
+    width: 100%;
+    position: relative;  
 }
 
 .about-text{
-    h4{
-        margin: 10px 0;
+    h2{
+        margin: 20px 0;
+        font-size: size(large);
+        font-weight: weight(bold);
+        line-height: 1.1;
+        letter-spacing: 2px;
+    }
+    h5{
         color: color(main-color);
         font-size: size(medium);
         font-weight: weight(bold);
     }
-    h2{
-        font-size: size(large);
+    h4{
+        margin-bottom: 1.5rem;
+        font-size: size(medium);
+        font-weight: weight(bold);
     }
 }
+
+.about-gri{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+// @use './../../../assets/style/helpers/' as *;
+// @use './../../../assets/style/components/buttons';
+
+
+// .about{
+//     // display: grid;
+//     // grid-template-columns: repeat(2,1fr);
+//     // align-items: center;
+//     // gap: 2rem;
+//     // height: 100vh;
+//     // width: 100%;
+//     // background-color: red;
+//     // position: relative;
+//     width: 100%;
+//     position: relative;
+// }
+
+// .about-text{
+//     // background: red;
+//     h4{
+//         margin: 10px 0;
+//         color: color(main-color);
+//         font-size: size(medium);
+//         font-weight: weight(bold);
+//     }
+//     h2{
+//         font-size: size(large);
+//     }
+// }
+// // .about-gri{
+// //     display: flex;
+// //     flex-direction: column;
+// // }

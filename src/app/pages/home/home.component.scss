@@ -1,16 +1,12 @@
 @use './../../../assets/style/helpers/' as *;
 @use './../../../assets/style/components/buttons';
-section{
-    padding: 160px 16% 90px;
-    display: flex;
-    justify-content: center;
-}
 
 .home{
-    height: 100vh;
+    // height: 100vh;
     width: 100%;
     position: relative;
-    // color: color(light);    
+    display: flex;
+    justify-content: center;  
 }
 
 .home-text{
@@ -32,3 +28,4 @@ section{
         font-weight: weight(bold);
     }
 }
+
