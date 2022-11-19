@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { MySkillsComponent } from './pages/my-skills/my-skills.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AppRoutingModule } from './app-routing.module';
     ContactMeComponent,
     MyProjectComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MySkillsComponent
   ],
   imports: [
     BrowserModule,
