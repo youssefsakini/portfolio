@@ -1,0 +1,45 @@
+@use './../../../assets/style/helpers/' as *;
+@use './../../../assets/style/components/buttons';
+
+.contact{
+    // height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    padding: 60px;
+}
+
+.contact_container{
+    & h1{
+        margin: 20px 0;
+        font-size: size(large);
+        font-weight: weight(bold);
+        line-height: 1.1;
+        letter-spacing: 2px;
+    } 
+}
+
+.form_content{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid color(main-color);
+    outline: none;
+    border-radius: $main-border-radius;
+  }
+
+  #msg{
+    border-radius: $main-border-radius;
+    border: 1px solid color(main-color);
+    margin-top: 8px;
+    margin-bottom: 12px;
+    max-width: 500px;
+    max-height: 150px;
+  }
