@@ -11,22 +11,26 @@ export class MyProjectComponent implements OnInit {
     {
       id:1,
       name:'MEDIEXPERTS APPLICATION',
-      technologie:'Laravel/VueJs'
+      technologie:'Laravel/VueJs',
+      image: './../../../assets/images/mxperts.png'
     },
     {
       id:2,
       name:'ATTAWFIQ MICRO-FINANCE APP',
-      technologie:'Angular/NodeJs : ExpressJs'
+      technologie:'Angular/NodeJs : ExpressJs',
+      image: './../../../assets/images/TAWFIQ.jpg'
     },
     {
       id:3,
       name:'ANGRY-SKELETON WEB SITE',
-      technologie:'Laravel/VueJs'
+      technologie:'Angular',
+      image: './../../../assets/images/skeleton1.jpeg'
     },
     {
       id:4,
       name:'ROSACOLOR WEB SITE',
-      technologie:'NextJs'
+      technologie:'NextJs',
+      image: './../../../assets/images/rosacolor.png'
     },
   ]
   constructor() { }
