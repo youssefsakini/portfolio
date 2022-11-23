@@ -25,6 +25,11 @@ export class HeaderComponent implements OnInit {
     },
     {
       id: 4,
+      name: 'MY SKILLS',
+      link: '/my-skills'
+    },
+    {
+      id: 5,
       name: 'CONTACT ME',
       link: '/contact-me'
     },
